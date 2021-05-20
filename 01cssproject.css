@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: aquamarine;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  max-width: 1000px;
+  background-color: purple;
+  color: white;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.pro-image{
+  width: 100px;
+  height: 120px;
+  border: 3px solid white;
+  border-radius: 50%;
+  float: left;
+}
+
+.bio{
+  float: left;
+  padding: 30px;
+}
+.contact a{
+  color: teal;
+  font-weight: bold;
+  text-decoration: none;
+}
+.contact a:hover{
+   text-decoration: underline;
+   color: tomato;
+}
+.contact{
+  float: right;
+  padding: 30px;
+}
+
+
+
+.div-clear{
+  clear: both;
+}
+
+hr{
+  border: solid 3px black;
+  width: 100%;
+  margin: 30px auto;
+  border-bottom: none;
+}
+
+/* pwesonal section start */
+#personal-section{
+
+}
+.content{
+   margin-bottom: 30px;
+}
+.left-div{
+    width:30%;
+    float: left;
+}
+.right-div{
+   width:70%;
+   float: left;
+}
+
+.commom-hr{
+  border:black solid 1px;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
+}
+
+/* education part */
+
+.edu-left a:hover{
+  color: tomato;
+}
+.edu-left{
+  float: left;
+  width: 45%;
+}
+.edu-right{
+  float: left;
+  width: 45%;
+}
+
+/* footer desing */
+
+.foot-design{
+  background-color: black;
+  text-align: center;
+  padding: 18px;
+}
+
+.foot-design a{
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.foot-design p{
+  color: white;
+  margin-top: 20px;
+}
